@@ -80,7 +80,7 @@ for step in range(total_steps):
     total_loss.backward()
     optimizer.step()
 
-    if step % 200 == 0:
+    if step % 5 == 0:
         print(total_loss)
         image_transformer.eval()
         generated = image_transformer(y_c)

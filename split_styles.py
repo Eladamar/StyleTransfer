@@ -12,7 +12,9 @@ from tqdm import tqdm
 
 from utils import *
 
-model = models.vgg19(pretrained=True)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+model = models.vgg19(pretrained=True).to(device)
 
 ## freeze the layers
 for param in model.parameters():
@@ -29,14 +31,14 @@ transformer = transforms.Compose([
 
 data_root = '../MandoConcept'
 
-paths = list(Path(data_root).rglob("*.jpg"))
+paths = list(Path(data_root).rglob("*.jpg")) + list(Path(data_root).rglob("*.png"))
 path_image = {}
 if Path("features.pickle").is_file():
   with open(r"features.pickle", "rb") as output_file:
     path_image = pickle.load(output_file)
 else:
   for path in tqdm(paths):
-    image = load_image(path, transformer)
+    image = load_image(path, transformer).to(device)
     feature = model(image)
     path_image[path] = feature.squeeze(0).numpy()
   
@@ -44,7 +46,7 @@ else:
     pickle.dump(path_image, output_file)
 
 print("fitting")
-kmeans = KMeans(n_clusters=4, n_jobs=-1, random_state=22)
+kmeans = KMeans(n_clusters=16, n_jobs=-1, random_state=42)
 x = np.array(list(path_image.values()))
 
 kmeans.fit(x)

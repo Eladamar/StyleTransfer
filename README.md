@@ -14,6 +14,6 @@ This model used for creating The Mandalorian concept art
 
 ### TODO 
 
-- [-] Add how to use.
-- [-] Use transfer learning on WikiArt for style image grouping, see [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.pdf).
-- [-] Add style weights. 
+- [X] Add how to use.
+- [X] Use transfer learning on WikiArt for style image grouping, see [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.pdf).
+- [X] Add style weights. 

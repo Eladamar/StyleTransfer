@@ -5,18 +5,18 @@ PyTorch implementation of [A LEARNED REPRESENTATION FOR ARTISTIC STYLE](https://
 
 This model used for creating The Mandalorian concept art  
 **Content Image**  
-![](./docs/content.jpg =100x100)
+<img src="./docs/content.jpg" height="400" width="400"/>
   
 **Style Images**  
-![](./docs/styles.jpg =100x)
+<img src="./docs/styles.jpg" height="400" width="400"/>
 
 **Output**  
-![](./docs/styled.jpg =100x)
+<img src="./docs/stylized.jpg" height="400" width="400"/>
 
 **Style Combination**  
 |Styles 1 and 5 | Styles 2 and 16 |
 |------|--------|
-| <img src="./docs/gen[0, 4].jpg" height="500" width="320"/> |<img src="./docs/gen[1, 15].jpg" height="500" width="320"/> |
+| <img src="./docs/gen[0, 4].jpg" height="320" width="320"/> |<img src="./docs/gen[1, 15].jpg" height="320" width="320"/> |
 
 ## Style Transer Papers Used 
 [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf) (Leon A. Gatys, Alexander S. Ecker, Matthias Bethge)  

@@ -13,10 +13,10 @@ This model used for creating The Mandalorian concept art
 [A LEARNED REPRESENTATION FOR ARTISTIC STYLE](https://arxiv.org/pdf/1610.07629.pdf) (Vincent Dumoulin & Jonathon Shlens & Manjunath Kudlur)  
 
 ### TODO 
-- [X] Re-implement Johnson et al work
-- [X] Add conditinal instance normalization
-- [X] Add UNet
-- [X] Use Mandalorian concept art as style
-- [] Use transfer learning on WikiArt for style image grouping, see [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.pdf)
-- [] Add style weights
-- [] Add how to use
+- [X] Re-implement Johnson et al work.
+- [X] Add conditinal instance normalization.
+- [X] Add UNet.
+- [X] Use Mandalorian concept art as style.
+- [ ] Use transfer learning on WikiArt for style image grouping, see [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Artsiom_Sanakoyeu_A_Style-aware_Content_ECCV_2018_paper.pdf).
+- [ ] Add style weights.
+- [ ] Add how to use.

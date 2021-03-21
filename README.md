@@ -8,10 +8,10 @@ This model used for creating The Mandalorian concept art
 <img src="./docs/content.jpg" height="400" width="400"/>
   
 **Style Images**  
-<img src="./docs/styles.jpg" height="400" width="400"/>
+<img src="./docs/styles.jpg" height="500" width="500"/>
 
 **Output**  
-<img src="./docs/stylized.jpg" height="400" width="400"/>
+<img src="./docs/styled.jpg" height="500" width="500"/>
 
 **Style Combination**  
 |Styles 1 and 5 | Styles 2 and 16 |

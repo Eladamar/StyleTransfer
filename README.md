@@ -5,7 +5,7 @@ PyTorch implementation of [A LEARNED REPRESENTATION FOR ARTISTIC STYLE](https://
 
 This model used for creating The Mandalorian concept art  
 **Content Image**  
-![](./docs/content.jpg =100x)
+![](./docs/content.jpg =100x100)
   
 **Style Images**  
 ![](./docs/styles.jpg =100x)

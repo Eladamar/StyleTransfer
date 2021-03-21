@@ -16,7 +16,7 @@ This model used for creating The Mandalorian concept art
 **Style Combination**  
 |Styles 1 and 5 | Styles 2 and 16 |
 |------|--------|
-| ![](./docs/gen[0, 4].jpg)  |![](./docs/gen[1, 15].jpg) |
+| <img src="./docs/gen[0, 4].jpg" height="500" width="320"/> |<img src="./docs/gen[1, 15].jpg" height="500" width="320"/> |
 
 ## Style Transer Papers Used 
 [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf) (Leon A. Gatys, Alexander S. Ecker, Matthias Bethge)  

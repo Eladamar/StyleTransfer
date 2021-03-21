@@ -4,16 +4,16 @@ PyTorch implementation of [A LEARNED REPRESENTATION FOR ARTISTIC STYLE](https://
 ## The Mandalorian Concept Art Style Transfer
 
 This model used for creating The Mandalorian concept art  
-**Content Image**
-![](./docs/content.jpg)
+**Content Image**  
+![](./docs/content.jpg =100x)
   
-**Style Images**
-![](./docs/styles.jpg)
+**Style Images**  
+![](./docs/styles.jpg =100x)
 
-**Output**
-![](./docs/styled.jpg)
+**Output**  
+![](./docs/styled.jpg =100x)
 
-**Style Combination**
+**Style Combination**  
 |Styles 1 and 5 | Styles 2 and 16 |
 |------|--------|
 | ![](./docs/gen[0, 4].jpg)  |![](./docs/gen[1, 15].jpg) |

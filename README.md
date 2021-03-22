@@ -21,7 +21,7 @@ This model used for creating The Mandalorian concept art
 
 ### TODO 
 - [X] Re-implement Johnson et al work.
-- [X] Add conditinal instance normalization.
+- [X] Add conditional instance normalization.
 - [X] Add UNet.
 - [X] Use Mandalorian concept art as style.
 - [ ] Train on larger image size, to get better spatial information.

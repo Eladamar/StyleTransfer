@@ -6,7 +6,7 @@ Trained on coco dataset(2017).
 
 This model used for creating The Mandalorian concept art  
 **Content Image**  
-<img src="./docs/content.jpg" height="400" width="400"/>
+<img src="./docs/content.jpg" height="300" width="300"/>
   
 **Style Images**  
 <img src="./docs/styles.jpg" height="500" width="500"/>

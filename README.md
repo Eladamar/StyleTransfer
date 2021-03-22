@@ -1,5 +1,6 @@
 # Multi Style Transfer
-PyTorch implementation of [A LEARNED REPRESENTATION FOR ARTISTIC STYLE](https://arxiv.org/pdf/1610.07629.pdf), Using [UNet](https://arxiv.org/pdf/1505.04597.pdf) as the image transform network. 
+PyTorch implementation of [A LEARNED REPRESENTATION FOR ARTISTIC STYLE](https://arxiv.org/pdf/1610.07629.pdf), Using [UNet](https://arxiv.org/pdf/1505.04597.pdf) as the image transform network.  
+Trained on coco dataset(2017).
   
 ## The Mandalorian Concept Art Style Transfer
 
